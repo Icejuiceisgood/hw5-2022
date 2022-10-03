@@ -1,0 +1,62 @@
+#logo{
+    width:475px;
+    animation: hw5_move 5s;
+}
+
+@keyframes hw5_move{
+    from {width:25px;
+    opacity:0%;}
+    to {width:475px;
+    opacity:100%;}
+}
+
+body{
+    font-family: "Poppins";
+    background-image: url("../images/concrete_seamless.png");
+    background-color: #f1f1f1;
+}
+
+.nav_links{
+    display:flex;
+}
+a:visited{
+    color:inherit;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > header{
+    background: #288088;
+    border: 2px solid #45ADAD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+.card{
+    border-radius: 50px;
+    flex-basis:450px;
+}
+.pricing{
+    align-items:center;
+    justify-content:center;
+}
+
+.gallery img{
+    border: 10px solid #50C7C7;
+    margin: 10px;
+    width:300px;
+
+}
+
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

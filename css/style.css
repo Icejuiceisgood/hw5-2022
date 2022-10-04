@@ -19,7 +19,7 @@ body{
 
 .nav_links{
     display:flex;
-    text-align:left;
+    justify-content: flex-start;
 }
 
 li:visited{
@@ -31,7 +31,7 @@ li:visited{
 header{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     
 }
 
@@ -70,4 +70,14 @@ header{
     justify-content: center;
     
 
+}
+
+@media only screen and (min-width: 900px) {
+
+    header{
+        justify-content: flex-start;
+    }
+    .nav_links{
+        justify-content: flex-end;
+    }
 }
